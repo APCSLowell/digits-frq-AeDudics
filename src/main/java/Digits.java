@@ -21,9 +21,8 @@ public class Digits
 	  for(int i = 1; i < digitList.size(); i++)
           	if(digitList.get(i - 1).compareTo(digitList.get(i)) >= 0){
           		return false;
-	  	}else{
- 	  		return true;
 	  	}
+	  return true;
 	}
 	
 	public String toString()
